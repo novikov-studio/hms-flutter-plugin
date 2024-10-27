@@ -73,7 +73,7 @@ class RemoteMessageNotification {
   final Uri? imageUrl;
   final Uri? link;
 
-  final double? when;
+  final num? when;
 
   final List<dynamic>? lightSettings;
   final List<dynamic>? vibrateConfig;
@@ -157,7 +157,7 @@ class RemoteMessageNotification {
   int? get getNotifyId => notifyId;
 
   /// Obtains the display time of a notification message.
-  double? get getWhen => when;
+  num? get getWhen => when;
 
   /// Obtains the blinking frequency and color of a breathing light.
   List<dynamic>? get getLightSettings => lightSettings;

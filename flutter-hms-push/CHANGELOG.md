@@ -1,3 +1,7 @@
+## 6.12.0+302-namespace
+- Fixed [issue 379](https://github.com/HMS-Core/hms-flutter-plugin/issues/379/)
+- Fixed "type 'int' is not a subtype of 'double?'" error
+
 ## 6.12.0+302
 
 - Fixed stability and performance issues.
